@@ -1,0 +1,84 @@
+body{text-align: left;}
+h1{
+  color: #f2f2f2;
+  font-family: 'Big Shoulders Display', cursive;
+  font-weight: 700;
+  margin-top:30px;
+}
+
+p{
+  color: #FFFFFFBD;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  margin: 25px auto 50px;
+}
+.mainframe{ margin:20% auto; width: 65%;}
+.sedans{
+  background-color: #e38826;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  padding: 45px;
+}
+
+.suvs{
+  background-color: #006970;
+  padding: 45px;
+}
+
+.luxury{
+  background-color: #004241;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 45px;
+}
+
+.icon{
+  margin: 5px auto;
+}
+
+@media(max-width:992px){
+  .sedans{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 0;
+  }
+  .luxury{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+}
+
+.mybtn p{
+  margin:5px 20px;
+}
+.mybtn{
+  border-color: #f2f2f2;
+  border-style: solid;
+  border-radius: 40px;
+  background:#f2f2f2;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  padding: 5px 20px;
+  margin:20px auto;
+}
+
+.sedans .mybtn{
+  color: #e38826;
+}
+
+.suvs .mybtn{
+  color: #006970;
+}
+
+.luxury .mybtn{
+  color: #004241;
+}
+
+.mybtn:hover{
+  background: none;
+  color: #FFFFFFBD;
+}
+/* Attribution________________________________________ */
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: #3e52a3; }
